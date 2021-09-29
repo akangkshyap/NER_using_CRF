@@ -1,6 +1,6 @@
 # Testing the NER
 
-with open("E://7th sem CSE/internship/CRF_4_NER-master/valid.txt", "r") as f:
+with open("Directory/valid.txt", "r") as f:
     sents = [line.strip() for line in f.readlines() if line.strip()]
 
 word = []
