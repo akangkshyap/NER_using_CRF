@@ -1,6 +1,6 @@
 # Accuracy of NER
 
-with open("E://7th sem CSE/internship/CRF_4_NER-master/result.txt", "r") as f:
+with open("Directory/result.txt", "r") as f:
     sents = [line.strip() for line in f.readlines() if line.strip()]
 
 total = len(sents)
